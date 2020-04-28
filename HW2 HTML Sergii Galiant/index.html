@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HW2 HTML Sergii Galiant</title>
+  </head>
+  <body>
+    <h1>Таблиці та форми</h1>
+    <table>
+      <tr>
+        <th>Ім'я</th>
+        <th>Прізвище</th>
+        <th>Телефон</th>
+        <th>Електронна пошта</th>
+      </tr>
+
+      <tr>
+        <td>Максим</td>
+        <td>Симоненко</td>
+        <td>+380642584896</td>
+        <td>m.symonenko@gmail.com</td>
+      </tr>
+
+      <tr>
+        <td>Василь</td>
+        <td>Самойлов</td>
+        <td>+380521236879</td>
+        <td>v.samoilov@gmail.com</td>
+      </tr>
+
+      <tr>
+        <td>Іван</td>
+        <td>Петренко</td>
+        <td>+380776549713</td>
+        <td>i.petrenko@gmail.com</td>
+      </tr>
+    </table>
+
+    <form>
+      <p>
+        <label>Введіть Ваше ім'я:</label><br />
+        <input type="text" placeholder="Ваше ім'я" />
+      </p>
+
+      <p>
+        <label>Введіть Ваше прізвище:</label><br />
+        <input type="text" placeholder="Ваше прізвище" />
+      </p>
+
+      <p>Вкажіть Вашу стать:</p>
+      <input type="radio" name="sex" id="m" checked />
+      <label for="m">Чоловіча</label><br />
+      <input type="radio" name="sex" id="w" />
+      <label for="w">Жіноча</label>
+      <p>
+        <textarea
+          cols="30"
+          rows="5"
+          placeholder="Введіть Ваше запитання"
+        ></textarea>
+      </p>
+
+      <p>Вкажіть своє місто:</p>
+      <select id="city">
+        <option selected disabled>Виберіть Ваше місто</option>
+        <option>Київ</option>
+        <option>Вінниця</option>
+        <option>Львів</option>
+        <option>Дніпро</option>
+        <option>Одеса</option>
+        <option>Харків</option>
+      </select>
+
+      <p>Виберіть мову:</p>
+      <input type="checkbox" id="uk" />
+      <label for="uk">Українська</label><br />
+      <input type="checkbox" id="ru" />
+      <label for="ru">Русский</label><br />
+      <input type="checkbox" id="en" />
+      <label for="en">English</label><br />
+
+      <input type="submit" value="Відправити" />
+    </form>
+  </body>
+</html>
