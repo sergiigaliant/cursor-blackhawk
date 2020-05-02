@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(49, 54, 54);
+  font-family: sans-serif;
+  color: white;
+  
+}
+table{
+font-family: sans-serif;
+font-size: 14px;
+text-align: left;
+width: 800px;
+height: 180px;
+border: 1px solid rgb(160, 158, 158);
+border-spacing: 0;
+border-radius: 7px 7px 7px 7px;
+}
+
+th {
+padding: 9px 9px;
+}
+
+td {
+border-top: 1px solid rgb(160, 158, 158);
+padding: 8px;
+
+}
+.dots{
+  text-align: right;
+  padding-right: 30px;
+  color: rgb(160, 158, 158);
+  
+}
+.triangle {
+  display: inline;
+  position: relative;
+  margin-left: 14px;
+	top: 11px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid white;
+}
+.colomn2_table1{
+  color: rgb(160, 158, 158);
+}
