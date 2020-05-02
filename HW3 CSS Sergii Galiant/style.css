@@ -13,6 +13,10 @@ height: 180px;
 border: 1px solid rgb(160, 158, 158);
 border-spacing: 0;
 border-radius: 7px 7px 7px 7px;
+margin: auto;
+margin-top: 50px;
+margin-left: 100px
+
 }
 
 th {
@@ -24,7 +28,7 @@ border-top: 1px solid rgb(160, 158, 158);
 padding: 8px;
 
 }
-.dots{
+.dots_table1{
   text-align: right;
   padding-right: 30px;
   color: rgb(160, 158, 158);
@@ -39,6 +43,23 @@ padding: 8px;
 	border-right: 6px solid transparent;
 	border-top: 6px solid white;
 }
-.colomn2_table1{
+.colomn2_table{
   color: rgb(160, 158, 158);
+}
+.dots_table2_3{
+  text-align: right;
+  padding-right: 30px;
+  color: white
+}
+label, img,  .triangle, .dots_table1, .dots_table2_3{
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+ 
+}
+
+img{
+  width: 15px;
+  margin-right: 5px;
 }
