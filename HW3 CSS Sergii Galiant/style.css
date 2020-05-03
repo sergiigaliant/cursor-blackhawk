@@ -77,3 +77,6 @@ img{
   float: right;
   height: 140%;
   }
+  input::-webkit-input-placeholder { 
+    color: white; 
+  }
