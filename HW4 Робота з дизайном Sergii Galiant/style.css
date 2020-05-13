@@ -1,0 +1,127 @@
+html,
+body {
+  font-family: "Lato";
+  color: #ffffff;
+  font-size: 14px;
+  background: linear-gradient(
+      90deg,
+      rgba(213, 32, 71, 0.8) 0%,
+      rgba(238, 61, 27, 0.8) 100%
+    ),
+    url("./images/background.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  width: 1440px;
+  height: 782px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  margin-left: 100px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.logo_text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 10px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 60px;
+}
+
+.navbar_name {
+  font-style: normal;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 20px;
+}
+select {
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: rgb(206, 46, 46);
+}
+
+.flag_usa {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.button_login {
+  width: 100px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: transparent;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.main_title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  left: 431px;
+  top: 257px;
+}
+.main_text {
+  position: absolute;
+  font-style: normal;
+  width: 530px;
+  height: 125px;
+  left: 450px;
+  top: 382px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.button_sign_up {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 640px;
+  top: 545px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ed4c5c;
+}
