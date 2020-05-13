@@ -7,7 +7,8 @@ body {
       90deg,
       rgba(213, 32, 71, 0.8) 0%,
       rgba(238, 61, 27, 0.8) 100%
-    ), url("./images/background.png");
+    ),
+    url("./images/background.png");
   background-position: top left;
   background-size: cover;
   height: 782px;
@@ -34,7 +35,6 @@ header {
 }
 
 .navbar {
-  
   margin-top: 60px;
   margin-left: 200px;
   margin-right: 60px;
@@ -82,7 +82,6 @@ select {
 }
 
 .main_title {
-  
   font-weight: bold;
   font-size: 72px;
   line-height: 86px;
@@ -119,21 +118,20 @@ select {
   align-items: center;
   text-transform: uppercase;
   color: #ed4c5c;
-  margin-left: 90px;
   
 }
 
-.container{
+.container {
   display: flex;
-margin-top: 200px;
-width: 100%;
-text-align: center;
-align-items: center;
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
 }
 
-.content_text{
-width: 33%;
-margin: 0 auto;
-text-align: center;
-align-items: center;
+.content_text {
+ 
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
 }
