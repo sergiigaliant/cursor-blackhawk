@@ -9,11 +9,8 @@ body {
       rgba(238, 61, 27, 0.8) 100%
     ),
     url("./images/background.png");
-  position: absolute;
-  background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
-  width: 1440px;
   height: 782px;
 }
 
