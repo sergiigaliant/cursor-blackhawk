@@ -66,7 +66,7 @@ a {
 
 .top-container {
   max-width: 1250px;
-    top: 50px;
+  top: 50px;
   margin: auto;
 }
 .header-container {
@@ -185,34 +185,36 @@ nav ul {
 /* Storage Bank container */
 .storage_bank{
 max-width: 1120px;
-height: 560px;
+max-height: 560px;
 background: rgba(240, 99, 184, 0.15);
 border-radius: 50px;
 display: flex;
-  align-items: center;
 margin-top: 100px;
 margin-left: 40px;
+
 }
 
 .storage_bank_bg{
 background-image: url(./images/image2.png);
 background-repeat: no-repeat;
-max-width: 480px; 
-height: 500px; 
+min-width: 480px; 
+min-height: 500px; 
 
+}
+
+.storage_bank_text{
+  /* margin-left: auto; */
+   max-width: 475px;
+  margin: 125px 90px 0px 60px;
 }
 
 .storage_bank_text h2{
   font-family: "helvetica";
 font-style: normal;
 font-weight: bold;
-font-size: 40px;
+font-size: 38px;
 line-height: 130%;
 color: #212353;
-width: 475px;
-height: 100px;
-margin-top: 125px;
-padding-right: 90px;
 
 }
 .storage_bank_text p{
@@ -222,9 +224,122 @@ font-weight: 400;
 font-size: 18px;
 line-height: 160%;
 color: #4B5D68;
-width: 474px;
-height: 170px;
 margin-top: 40px;
 
 }
 /*End Storage Bank container */
+
+/* Features container*/
+
+.features{
+  /* max-width: 1135px; */
+/* max-height: 1000px; */
+  display: flex;
+  
+  
+}
+.features-text{
+text-align: center;
+margin-top: 150px;
+}
+
+.features-text h2{
+font-family: "helvetica";
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+color: #212353;
+/* text-align: center;  */
+margin-left: 395px;
+}
+
+.features-text p{
+  font-family: "avenir";
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+margin-top: 50px;
+max-width: 584px;
+margin-left: 410px;
+}
+
+.features_items{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 160px;
+/* flex-basis: 50%; */
+
+}
+
+.features_items h3{
+font-family: "helvetica";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #212353;
+
+}
+.features_items p{
+font-family: "avenir";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+color: #4B5D68;
+}
+.features_items a{
+font-family: "avenir";
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #212353;
+}
+
+/* search data */
+.search_data_container{
+ display: flex;
+  max-width: 50%;
+  min-height: 270px;
+  margin-bottom: 140px;
+  justify-content: space-between;
+}
+.search_data_image{
+ margin-top: 350px;
+  /* margin-left: 30px; */
+}
+
+.search_data_text{
+ margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 30px;
+  width: 50%;
+}
+
+
+.search_data_link{
+
+}
+/* search data */
+/* 24 hours access */
+
+/*end 24 hours access */
+/* print out */
+
+/*end print out */
+/* security code */
+
+/*end security code */
+/*End Features container*/

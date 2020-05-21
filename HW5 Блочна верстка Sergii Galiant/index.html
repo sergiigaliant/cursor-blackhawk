@@ -12,88 +12,94 @@
     <title>HW5 Sergii Galiant</title>
   </head>
   <body>
-    <div class="main-content">
-      <div class="main-title">
-        <h1>Stay focused on saving money</h1>
+    <header>
+      <div class="container">
+        <div class="about">
+          <h1>Stay focused on saving money</h1>
+          <p>
+            It is important to stay focused on saving money in any way you can.
+            We help you monitor your spending habits so you can easily spot and
+            cut any unnecessary expenses. Simply join today to get started!
+          </p>
+          <div class="app-download-icon">
+            <img src="./images/app_download_link.png" alt="app download icon" />
+          </div>
+        </div>
+        <div class="slider">
+          <img src="./images/Slider.png" alt="slider" />
+        </div>
       </div>
-      <div class="text">
-        <p>
-          It is important to stay focused on saving money in any way you can. We
-          help you monitor your spending habits so you can easily spot and cut
-          any unnecessary expenses. Simply join today to get started!
-        </p>
+    </header>
+    <main>
+      <div class="container">
+        <div class="text-contact">
+          <h2>Contact</h2>
+          <p>
+            Questions or concerns? Just fill out the form below and our support
+            team will get back to you within 24 hours
+          </p>
+        </div>
+        <form class="contact-form">
+          <div class="name">
+            <input class="first-name" type="text" placeholder="First Name" />
+            <input class="last-name" type="text" placeholder="Last Name" />
+          </div>
+          <input class="tel" type="tel" name="tel" placeholder="Phone Number" />
+          <select class="service" name="service">
+            <option value="Select Service" selected disabled
+              >Select Service</option
+            >
+          </select>
+          <button>Submit Now</button>
+        </form>
       </div>
-      <div class="app-download-icon">
-        <img src="./images/app_download_link.png" alt="app download icon" />
-      </div>
-      <div class="slider">
-        <img src="./images/Slider.png" alt="slider" />
-      </div>
-    </div>
-    <div class="contact-container">
-      <div class="title-contact">Contact</div>
-      <div class="questions">
-        <p>
-          Questions or concerns? Just fill out the form below and our support
-          team will get back to you within 24 hours
-        </p>
-      </div>
-      <form class="contact-form">
-        <input class="first-name" type="text" placeholder="First Name" />
-        <input class="last-name" type="text" placeholder="Last Name" />
-        <input class="tel" type="tel" name="tel" placeholder="Phone Number" />
-        <select class="service" name="service">
-          <option value="Select Service" selected disabled
-            >Select Service</option
-          >
-        </select>
-        <button>Submit Now</button>
-      </form>
-    </div>
-    <footer class="footer-content">
-      <div>
-        <h3 class="address">Address</h3>
+    </main>
+    <footer>
+      <div class="container">
         <div class="address-text">
+          <h3>Address</h3>
           <p>Pipang Ltd, Griva Digeni,</p>
           <p>81-83 Jacovides Tower, 1st Floor</p>
           <p>1090 Picosia USA</p>
         </div>
-      </div>
-      <div>
-        <h3 class="services">Services</h3>
         <div class="services-text">
-          <p>Overview</p>
-          <p>Features</p>
-          <p>Technology</p>
-          <p>Terms & Conditions</p>
-          <p>Privecy</p>
+          <h3>Services</h3>
+
+          <p><a href="#">Overview</a></p>
+          <p><a href="#">Features</a></p>
+          <p><a href="#">Technology</a></p>
+          <p><a href="#">Terms & Conditions</a></p>
+          <p><a href="#">Privecy</a></p>
+        </div>
+        <div>
+          <h3>Get in Touch</h3>
+          <p class="get-mail">info@cloudbudget.com</p>
+          <p class="get-tel">+1 844-721-7120</p>
+          <a href="#"
+            ><img
+              class="icon-facebook"
+              src="./images/facebook_icon.svg"
+              alt="facebook_icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="icon-linkedin"
+              src="./images/linkedin_icon.svg"
+              alt="linkedin_icon"
+          /></a>
+          <a href="#"
+            ><img
+              class="icon-twitter"
+              src="./images/twitter_icon.svg"
+              alt="twitter_icon"
+          /></a>
+        </div>
+        <div>
+          <h3>We Support</h3>
+          <img class="pay-service" src="./images/visa.png" alt="pay-service" />
         </div>
       </div>
-      <div>
-        <h3 class="get">Get in Touch</h3>
-        <p class="get-mail">info@cloudbudget.com</p>
-        <p class="get-tel">+1 844-721-7120</p>
-        <img
-          class="icon-facebook"
-          src="./images/facebook_icon.svg"
-          alt="facebook_icon"
-        />
-        <img
-          class="icon-linkedin"
-          src="./images/linkedin_icon.svg"
-          alt="linkedin_icon"
-        />
-        <img
-          class="icon-twitter"
-          src="./images/twitter_icon.svg"
-          alt="twitter_icon"
-        />
-      </div>
-      <div>
-        <h3 class="support">We Support</h3>
-        <img class="pay-service" src="./images/visa.png" alt="pay-service" />
-      </div>
-      <div class="copyright">Copyright 2018 CloudBudget</div>
+      <p class="copyright container">Copyright 2018 CloudBudget</p>
     </footer>
   </body>
 </html>
