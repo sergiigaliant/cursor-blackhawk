@@ -130,13 +130,15 @@ a {
   border-radius: 8px;
   border: none;
   margin: 20px 24px 20px 40px;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 15px;
-  color: #ffffff;
   padding: 12px 33px;
   cursor: pointer;
   outline: none;
+}
+.button_continue a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
 }
 .button_continue button:hover {
   background: rgb(42, 32, 129);
@@ -170,13 +172,15 @@ a {
   opacity: 1;
 }
 .courses_section_menu li {
+  opacity: 0.3;
+  margin-right: 30px;
+  display: inline;
+}
+.courses_section_menu a {
   font-family: "Baloo Bhai 2", cursive;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  opacity: 0.3;
-  margin-right: 30px;
-  display: inline;
 }
 .courses_section_menu .active {
   opacity: 1;
@@ -213,6 +217,7 @@ a {
 .courses_section_item_time {
   display: flex;
   align-items: center;
+  flex-basis: 122px;
 }
 .courses_section_item_time img {
   margin: 32px 0px 32px 0px;
@@ -234,13 +239,15 @@ a {
   border-radius: 8px;
   border: none;
   margin: 20px 24px 20px 0px;
+  padding: 12px 20px;
+  cursor: pointer;
+  outline: none;
+}
+.courses_section_item_button a {
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
   color: #ffffff;
-  padding: 12px 20px;
-  cursor: pointer;
-  outline: none;
 }
 .courses_section_item_button button:hover {
   background: rgb(42, 32, 129);
@@ -342,13 +349,18 @@ a {
   display: flex;
 }
 .your_statistics_menu li {
+  margin-top: 16px;
+  margin-right: 24px;
+  opacity: 0.3;
+}
+.your_statistics_menu li:hover {
+  opacity: 1;
+}
+.your_statistics_menu a {
   font-family: "Baloo Bhai 2", cursive;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  margin-top: 16px;
-  margin-right: 24px;
-  opacity: 0.3;
 }
 .list_menu .list_menu_active {
   opacity: 1;
@@ -397,13 +409,16 @@ a {
   border-radius: 8px;
   border: none;
   margin-top: 24px;
+
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+}
+.text_btn a {
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
   color: #ffffff;
-  padding: 12px 24px;
-  cursor: pointer;
-  outline: none;
 }
 .text_btn button:hover {
   background: rgb(42, 32, 129);
