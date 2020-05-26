@@ -129,16 +129,14 @@ a {
   background: #000000;
   border-radius: 8px;
   border: none;
-  margin: 20px 24px 20px 40px;
-  padding: 12px 33px;
-  cursor: pointer;
-  outline: none;
-}
-.button_continue a {
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
+  margin: 20px 24px 20px 40px;
+  padding: 12px 33px;
+  cursor: pointer;
+  outline: none;
 }
 .button_continue button:hover {
   background: rgb(42, 32, 129);
@@ -238,17 +236,16 @@ a {
   background: #000000;
   border-radius: 8px;
   border: none;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #ffffff;
   margin: 20px 24px 20px 0px;
   padding: 12px 20px;
   cursor: pointer;
   outline: none;
 }
-.courses_section_item_button a {
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 15px;
-  color: #ffffff;
-}
+
 .courses_section_item_button button:hover {
   background: rgb(42, 32, 129);
 }
@@ -409,17 +406,15 @@ a {
   border-radius: 8px;
   border: none;
   margin-top: 24px;
-
-  padding: 12px 24px;
-  cursor: pointer;
-  outline: none;
-}
-.text_btn a {
   font-size: 13px;
   font-weight: 700;
   line-height: 15px;
   color: #ffffff;
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
 }
+
 .text_btn button:hover {
   background: rgb(42, 32, 129);
 }
