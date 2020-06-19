@@ -1,0 +1,41 @@
+.bg-reason2 {
+    width: 45px; height: 45px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -155px -10px;;
+}
+
+.bg-reason3 {
+    width: 39px; height: 57px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -96px -10px;
+}
+
+.bg-reason4 {
+    width: 48px; height: 48px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -220px -10px;
+}
+
+.bg-adv1 {
+    width: 55px; height: 60px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -288px -10px;
+}
+
+.bg-adv2 {
+    width: 55px; height: 60px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -363px -10px;
+}
+
+.bg-reason1 {
+    width: 55px; height: 34px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -438px -10px;
+}
+
+.bg-adv3 {
+    width: 60px; height: 54px;
+    margin: auto;
+    background: url("../img/css_sprites.png") -513px -10px;
+}

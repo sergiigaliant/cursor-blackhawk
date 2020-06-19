@@ -170,7 +170,7 @@ button {
 .main-screen {
     min-height: 1px;
     height: 700px;
-    background-image: url("../img/main-screen-bg.jpg");
+    background-image: url("../img/main-screen-bg.webp");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -333,9 +333,9 @@ button {
 }
 
 .reasons .reason .square {
-    text-align: center;
+    /* text-align: center; */
     height: 70px;
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
@@ -344,23 +344,23 @@ button {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
-.reasons .reason .square img {
+/* .reasons .reason .square img {
     width: 45px;
     height: auto;
     display: block;
     margin: 0 auto;
-}
+} */
 
-.reasons .reason .square img.width60 {
+/* .reasons .reason .square img.width60 {
     width: 60px;
-}
+} */
 
-.reasons .reason .square img.width35 {
+/* .reasons .reason .square img.width35 {
     width: 35px;
-}
+} */
 
 .video {
     margin-top: 30px;
